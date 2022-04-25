@@ -1,0 +1,17 @@
+management:
+  endpoint:
+    health:
+      show-details: always
+
+
+logging:
+  level:
+    ROOT: ERROR
+    com.fsl: DEBUG
+    org.springframework:
+      boot.context.config: DEBUG
+      web: DEBUG
+
+spring:
+  application:
+    name: kubernetes-app
